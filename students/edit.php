@@ -36,7 +36,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 
     if ($conn->query($sql) === TRUE) {
-        header("Location: index.php");
+        header("Location: qlindex.php");
         exit();
     } else {
         echo "Lỗi khi cập nhật sinh viên: " . $conn->error;
