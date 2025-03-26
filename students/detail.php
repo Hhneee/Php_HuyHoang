@@ -121,7 +121,7 @@ if (!$row) {
             <p><strong>Ngày Sinh:</strong> <?= $row['NgaySinh'] ?></p>
             <p><strong>Ngành Học:</strong> <?= $row['TenNganh'] ?></p>
         </div>
-        <a href="index.php" class="btn">Quay lại</a>
+        <a href="qlindex.php" class="btn">Quay lại</a>
     </div>
 </body>
 </html>
