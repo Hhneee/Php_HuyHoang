@@ -31,7 +31,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Chèn dữ liệu vào database
     $sql = "INSERT INTO SinhVien (MaSV, HoTen, GioiTinh, NgaySinh, MaNganh, Hinh) VALUES ('$maSV', '$hoTen', '$gioiTinh', '$ngaySinh', '$maNganh', '$hinhAnh')";
     if ($conn->query($sql) === TRUE) {
-        header("Location: index.php");
+        header("Location: qlindex.php");
         exit();
     } else {
         echo "Lỗi: " . $conn->error;
